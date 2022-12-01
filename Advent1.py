@@ -4,9 +4,7 @@ def adv1a(big_list):
     mostCount = 0
     iter = 0
     sum = 0
-    print(big_list)
     for list in big_list:
-        print(list)
         for num in list:
             sum += num
         if sum > mostCount:
