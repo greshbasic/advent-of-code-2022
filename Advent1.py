@@ -1,4 +1,4 @@
-''' completed at 11:25 CST '''
+''' completed at 11:25 PM CST '''
 def adv1a(big_list):
     mostPos = 0
     mostCount = 0
