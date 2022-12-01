@@ -1,3 +1,4 @@
+''' completed in 25 minutes '''
 def adv1a(big_list):
     mostPos = 0
     mostCount = 0
