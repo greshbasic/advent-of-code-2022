@@ -26,10 +26,6 @@ def adv1b(big_list):
     sum_list.sort()
     top_3_sum = sum_list[-1] + sum_list[-2] + sum_list[-3]
     print(top_3_sum)
-    
-    
-        
-            
             
 def reader():
     biglist = []
@@ -42,8 +38,6 @@ def reader():
                 biglist.append(smalllist)
                 smalllist = []
     return biglist
-                
-                
 
 epic = reader()
 adv1b(epic)
