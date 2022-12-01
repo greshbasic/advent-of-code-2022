@@ -1,4 +1,4 @@
-''' completed in 25 minutes '''
+''' completed at 11:25 CST '''
 def adv1a(big_list):
     mostPos = 0
     mostCount = 0
@@ -38,7 +38,8 @@ def reader():
                 smalllist = []
     return biglist
 
-epic = reader()
-adv1b(epic)
+read_file = reader()
+adv1a(read_file)
+adv1b(read_file)
 
 
