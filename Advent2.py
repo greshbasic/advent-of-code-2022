@@ -77,10 +77,8 @@ def adv2b():
                 sum += 9
         else:
             if my_list[i] == "X":
-                
                 sum += 2
             elif my_list[i] == "Y":
-
                 sum += 6
             else:
                 sum += 7
