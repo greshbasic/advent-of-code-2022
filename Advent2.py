@@ -2,13 +2,13 @@
 completed at 11:25 PM CST
 '''
 
-def adv2a():
+def adv2a(file):
     list = []
     enemy_list = []
     my_list = []
     sum = 0
     
-    with open('code.txt', 'r') as read:
+    with open(file, 'r') as read:
         for line in read:
             list.append(str(line))
         for line in list:
@@ -45,13 +45,13 @@ def adv2a():
 function adv2b is just adv2a with modifications to scoring, when creating i had completely replaced
 adv2a, hence the very similar code and why the both contain a file reader
 '''
-def adv2b():
+def adv2b(file):
     list = []
     enemy_list = []
     my_list = []
     sum = 0
     
-    with open('code.txt', 'r') as read:
+    with open(file, 'r') as read:
         for line in read:
             list.append(str(line))
         for line in list:
@@ -83,6 +83,3 @@ def adv2b():
             else:
                 sum += 7
     print(sum)
-            
-adv2a()   
-adv2b()
