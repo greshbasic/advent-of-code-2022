@@ -83,3 +83,8 @@ def adv2b(file):
             else:
                 sum += 7
     print(sum)
+    
+if __name__ == "__main__":
+    file = str(input("please type the name of your file "))
+    adv2a(file)
+    adv2b(file)
